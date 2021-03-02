@@ -35,7 +35,7 @@ SELECT title,releasedate,rating,
 CONCAT(DirectorFirstName,' ',DirectorLastName) as Director from movies;
 
 SELECT * FROM movies ORDER BY DirectorLastName ASC;
-DELETE FROM movies WHERE DirectorLastName='R-Z';
+-- DELETE FROM movies WHERE DirectorLastName='R-Z';
 
 
 
